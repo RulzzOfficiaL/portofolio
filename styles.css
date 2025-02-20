@@ -524,6 +524,31 @@ Youtube: https://www.youtube.com/@Fauzialifatah
   .about-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .hero {
+    background: linear-gradient(45deg, #f8f9fa, #e9ecef);
+    text-align: center;
+    padding-top: 5rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .hero img {
+    width: 500px;
+    height: 500px;
+  }
+  .hero h1 {
+    font-size: 5rem;
+  }
+  .hero p {
+    font-size: 2rem;
+  }
+  .personal-info {
+    font-size: 3rem;
+  }
+  .about-text {
+    font-size: 1.5rem;
+  }
 }
 
 @media (max-width: 1024px) {
